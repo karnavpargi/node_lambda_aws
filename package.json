@@ -1,0 +1,17 @@
+{
+    "name": "mcf-node-lambda-aws",
+    "description": "AWS Lambda Node.js",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "aws-sdk": "^2.799.0",
+        "node-fetch": "^2.6.7",
+        "xml2json": "^0.12.0"
+    },
+    "scripts": {
+        "start": "sam local start-api",
+        "build": "sam build",
+        "deploy": "sam deploy",
+        "invoke": "sam local invoke"
+    }
+}
