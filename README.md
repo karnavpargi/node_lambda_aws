@@ -1,4 +1,4 @@
-# mcfadyen digital test
+# Test project based on nodeJS, ExpressJS, Serverless, s3Bucket.
 
 ## Requirements
 
